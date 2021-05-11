@@ -5,10 +5,10 @@ require_once('TwitterAPIExchange.php');
  
 
 $settings = array(
-    'oauth_access_token' => "1077953992766803968-wzLjW2vfjbhY8aF8AFccknUiQzKQRy",
-    'oauth_access_token_secret' => "juQpkWe4fqkpfRrjrByK9LPC16sx5Nv2U17AD7Uta8IQL",
-    'consumer_key' => "ZFou3JUNOGAgb5AAEgYrI572L",
-    'consumer_secret' => "VUaO0PbkMtNw1LeFWPKO5dz5bY3F4l1uDgRNXCj1WEPoIaBua2"
+    'oauth_access_token' => "YOUR_ACCESS_TOKEN",
+    'oauth_access_token_secret' => "YOUR_ACCESS_TOKEN_SECRET",
+    'consumer_key' => "YOUR_CONSUMER_KEY",
+    'consumer_secret' => "YOUR_CONSUMER_SECRET_KEY"
 );
 $url = "https://api.twitter.com/1.1/trends/place.json";
 
